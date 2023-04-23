@@ -9,7 +9,7 @@ import javax.validation.constraints.NotBlank;
 @Setter
 public class AccountCreateForm {
     @NotBlank(message = "")
-    private String userName;
+    private String username;
     private String password;
     private String firstName;
     private String lastName;
